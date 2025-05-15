@@ -1,0 +1,64 @@
+# ----------------------------------
+# Sistema Operativo
+# ----------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ----------------------------------
+# IDEs y Editores
+# ----------------------------------
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ----------------------------------
+# Dependencias y Paquetes
+# ----------------------------------
+node_modules/
+jspm_packages/
+bower_components/
+
+# ----------------------------------
+# Entornos y Variables
+# ----------------------------------
+.env
+.env.local
+.env.development
+.env.production
+
+# ----------------------------------
+# Logs y Archivos de Sistema
+# ----------------------------------
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.tmp
+*.temp
+
+# ----------------------------------
+# Builds y Outputs
+# ----------------------------------
+dist/
+build/
+out/
+*.min.js
+*.min.css
+*.map
+
+# ----------------------------------
+# Testing
+# ----------------------------------
+coverage/
+.nyc_output/
+
+# ----------------------------------
+# Configuraciones Locales
+# ----------------------------------
+.sass-cache/
+.local

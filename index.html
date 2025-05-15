@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animacion</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="estanteria">
+        <div class="repisa">
+            <div class="caja" style="left: 60px; top: 50px;"></div>
+            <div class="caja" style="left: 200px; top: 50px;"></div>
+            <div class="caja" style="left: 340px; top: 50px;"></div>
+        </div>
+        <div class="repisa">
+            <div class="caja" style="left: 60px; top: 50px;"></div>
+            <div class="caja" style="left: 200px; top: 50px;"></div>
+            <div class="caja" style="left: 340px; top: 50px;"></div>
+        </div>
+        <div class="repisa">
+            <div class="caja" style="left: 60px; top: 50px;"></div>
+            <div class="caja" style="left: 200px; top: 50px;"></div>
+            <div class="caja" style="left: 340px; top: 50px;"></div>
+        </div>
+    </div>
+
+    <!-- Pantalla de inventario digital -->
+    <div class="pantalla-computadora">
+        <div class="stats">
+            <h2>📊 INVENTARIO DIGITAL</h2>
+            <p>🖥️ Productos escaneados: <span id="contador-digital">0</span></p>
+            <p>📅 Última actualización: <span id="fecha-escaneo">--:--:--</span></p>
+        </div>
+        <div class="grid-productos" id="grid-productos"></div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
