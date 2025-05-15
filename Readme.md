@@ -2,6 +2,15 @@
 
 ¡Bienvenido a esta simulación interactiva de un sistema de inventario digital con efectos visuales dinámicos!
 
+## 🚀 Demo en Vivo
+
+[![Demo](https://img.shields.io/badge/Probar_Demo_Online-00b4d8?style=flat-square&logo=google-chrome&logoColor=white)](https://wilbertoitz.github.io/Animacion/)
+[![Último despliegue](https://img.shields.io/github/deployments/WilbertOritz/Animacion/github-pages?label=Despliegue&logo=vercel&style=flat-square)](https://github.com/WilbertOritz/Animaci-n-pueba/deployments)
+
+Accede a la versión en producción:  
+https://wilbertoritz.github.io/Animacion/
+
+
 ## 📝 Descripción
 Simulación visual de un sistema de escaneo de inventario que combina:
 - Animaciones fluidas de cajas en estanterías
